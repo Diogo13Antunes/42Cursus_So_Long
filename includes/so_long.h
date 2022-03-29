@@ -6,7 +6,7 @@
 /*   By: dcandeia <dcandeia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 17:08:18 by dcandeia          #+#    #+#             */
-/*   Updated: 2022/03/28 17:11:41 by dcandeia         ###   ########.fr       */
+/*   Updated: 2022/03/29 10:09:26 by dcandeia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,7 +108,6 @@ t_wind	window_size(char **map);
 void	**wind_new(void);
 void	wind_open(void);
 int		key(int keycode, t_map *map);
-void	print_square(t_image *img, int size, int wall_color, int back_color);
 t_image	image_creator(char *path);
 void	wall_printing(t_pict pictures, int keycode);
 t_pict	pictures_creator(void);
