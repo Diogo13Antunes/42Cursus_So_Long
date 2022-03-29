@@ -18,7 +18,7 @@
 
 > _In this project i tried to create a replication of PAC-MAN. The objective of this game is to collect all the collectibles and leave in the exit. The game could have an enemy, it moves randmly but if it caught the player the game ends._
 
-For detailed information, refer to the [**subject of this project**](https://github.com/Diogo13Antunes/42Cursus_SO_LONG/blob/main/subject.pdf).
+For detailed information, refer to the [**subject of this project**](https://github.com/Diogo13Antunes/42Cursus_So_Long/blob/main/subject.pdf).
 
 ## 🛠️ Download
 
@@ -29,6 +29,6 @@ The library is written in C language and thus needs the **`gcc` compiler** and s
 ### Instructions
 
 ```shell
-git clone https://github.com/Diogo13Antunes/42Cursus_SO_LONG.git
+git clone https://github.com/Diogo13Antunes/42Cursus_So_Long.git
 ```
-OR Download by clicking [**HERE**](https://github.com/Diogo13Antunes/42Cursus_SO_LONG/archive/refs/heads/main.zip)
+OR Download by clicking [**HERE**](https://github.com/Diogo13Antunes/42Cursus_So_Long/archive/refs/heads/main.zip)
