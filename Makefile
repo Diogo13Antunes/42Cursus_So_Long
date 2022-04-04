@@ -6,7 +6,7 @@
 #    By: dcandeia <dcandeia@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/24 16:58:44 by dcandeia          #+#    #+#              #
-#    Updated: 2022/03/28 17:22:00 by dcandeia         ###   ########.fr        #
+#    Updated: 2022/04/04 10:24:49 by dcandeia         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ RM = rm -f
 
 $(VERBOSE).SILENT:
 
-HEADER = push_swap.h
+HEADER = so_long.h
 
 LIBFT = ./Libft/libft.a
 LIBFT_PATH = ./Libft
