@@ -6,7 +6,7 @@
 /*   By: dcandeia <dcandeia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 17:13:59 by dcandeia          #+#    #+#             */
-/*   Updated: 2022/03/15 12:20:55 by dcandeia         ###   ########.fr       */
+/*   Updated: 2022/04/04 10:42:31 by dcandeia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,11 @@ void	matrix_map(void)
 	y = 0;
 	temp_map = (*map());
 	(*arr_map()) = (char **)malloc(sizeof(char *) * (ft_lstsize(temp_map) + 1));
+	if ((*arr_map()) == NULL)
+	{
+		ft_lstclear(map());
+		exit(0);
+	}
 	while (temp_map)
 	{
 		(*arr_map())[y] = temp_map->content;
